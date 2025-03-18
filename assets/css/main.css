@@ -4436,9 +4436,14 @@ body {
   padding: 0px 20px;
   transition: all 0.3s linear;
 }
-.df-shop-cat-title:hover {
-  color: var(--clr-theme-3);
+.df-shop-cat-wrap:hover .df-shop-cat-title {
+  color: var(--clr-theme-2) !important;
 }
+
+/* .df-shop-cat-title:hover {
+  color: var(--clr-theme-2) !important;
+} */
+
 .df-shop-cat-icon i {
   font-size: 50px;
   line-height: 120px;
