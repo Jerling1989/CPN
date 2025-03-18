@@ -62,15 +62,17 @@
   */
   --clr-common-white: #ffffff;
   --clr-common-black: #09162B;
+  --clr-common-dark: #222222;
   --clr-common-border: #E8E8E8;
   --clr-common-placeholder: #787878;
   --clr-common-body-text: #787878;
   --clr-common-body-bg: #f7fbff;
   --clr-theme-1: #003773;
-  --clr-theme-2: #FF4917;
+  --clr-theme-2: #e67e22;
   --clr-theme-3: #1765E5;
   --clr-theme-4: #F3F6F9;
   --clr-theme-5: #083260;
+  --clr-theme-6: #d35400;
 }
 
 * {
@@ -885,7 +887,7 @@ p.is-white {
   height: 278px;
   border-radius: 274px;
   opacity: 0.5;
-  background: #ff4917;
+  background: #e67e22;
   filter: blur(200px);
   top: 550px;
   right: -200px;
@@ -897,7 +899,7 @@ p.is-white {
   width: 278px;
   height: 278px;
   border-radius: 278px;
-  background: #ff4917;
+  background: #e67e22;
   filter: blur(200px);
   top: 150px;
   right: -200px;
@@ -1058,7 +1060,7 @@ p.is-white {
   height: 274px;
   right: -200px;
   bottom: 0;
-  background: #ff4917;
+  background: #e67e22;
   filter: blur(200px);
   bottom: 39%;
   opacity: 0.5;
@@ -2639,57 +2641,108 @@ video {
   color: var(--clr-common-black);
   background-color: var(--clr-common-white);
 }
-.primary-btn .icon__box {
+
+.primary-btn-1 {
+  height: 60px;
+  padding: 0 30px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--clr-common-dark);
+  display: inline-flex;
+  gap: 6px;
+  background: var(--clr-theme-2);
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: all 0.4s ease-out 0s;
+  -moz-transition: all 0.4s ease-out 0s;
+  -ms-transition: all 0.4s ease-out 0s;
+  -o-transition: all 0.4s ease-out 0s;
+  transition: all 0.4s ease-out 0s;
+  border-radius: 60px;
+}
+.primary-btn-1:focus {
+  color: var(--clr-common-dark);
+}
+.primary-btn-1:hover {
+  color: var(--clr-common-dark);
+  background: var(--clr-theme-6);
+}
+.primary-btn-1:hover .icon__first {
+  transform: translateX(150%);
+}
+.primary-btn-1:hover .icon__second {
+  transform: translateX(0%);
+}
+.primary-btn-1.hover-white:hover {
+  color: var(--clr-common-dark);
+  background-color: var(--clr-common-white);
+}
+
+.primary-btn .icon__box,
+.primary-btn-1 .icon__box {
   transform: rotate(-45deg);
 }
-.primary-btn .icon__box.demo-btn {
+.primary-btn .icon__box.demo-btn,
+.primary-btn-1 .icon__box.demo-btn {
   transform: rotate(90deg);
 }
-.primary-btn.bordered {
-  border: 1.5px solid var(--clr-theme-3);
+.primary-btn.bordered,
+.primary-btn-1.bordered {
+  border: 1.5px solid var(--clr-theme-2);
   background: transparent;
-  color: var(--clr-theme-3);
+  color: var(--clr-theme-2);
 }
-.primary-btn.bordered:hover {
-  background: var(--clr-theme-3);
+.primary-btn.bordered:hover,
+.primary-btn-1.bordered:hover {
+  background: var(--clr-theme-2);
   border-color: transparent;
-  color: var(--clr-common-white);
+  color: var(--clr-common-black);
 }
-.primary-btn.bordered.is-white {
+.primary-btn.bordered.is-white,
+.primary-btn-1.bordered.is-white {
   border: 1.5px solid var(--clr-theme-4);
   color: var(--clr-common-white);
 }
-.primary-btn.bordered.is-white:hover {
+.primary-btn.bordered.is-white:hover,
+.primary-btn-1.bordered.is-white:hover {
   background: var(--clr-theme-4);
   border-color: transparent;
   color: var(--clr-common-black);
 }
-.primary-btn.bordered.is-white:hover .icon__box img {
+.primary-btn.bordered.is-white:hover .icon__box img,
+.primary-btn-1.bordered.is-white:hover .icon__box img {
   filter: brightness(10%);
 }
-.primary-btn.btn-x-small {
+.primary-btn.btn-x-small,
+.primary-btn-1.btn-x-small {
   height: 40px;
   padding: 0 20px;
   font-size: 14px;
   font-weight: 500;
 }
-.primary-btn.btn-small {
+.primary-btn.btn-small,
+.primary-btn-1.btn-small {
   height: 50px;
   padding: 0 25px;
   font-size: 16px;
   font-weight: 500;
 }
-.primary-btn.btn-large {
+.primary-btn.btn-large,
+.primary-btn-1.btn-large {
   height: 70px;
   padding: 0 50px;
   font-size: 20px;
 }
-.primary-btn.btn-extra-large {
+.primary-btn.btn-extra-large,
+.primary-btn-1.btn-extra-large {
   height: 85px;
   padding: 0 70px;
   font-size: 22px;
 }
-.primary-btn.sign-btn {
+.primary-btn.sign-btn,
+.primary-btn-1.sign-btn {
   border-radius: 6px;
 }
 
@@ -5443,7 +5496,7 @@ div.mean-container a.meanmenu-reveal {
   font-size: 28px;
   padding: 5px 5px;
   border-radius: 6px;
-  color: #ff4917;
+  color: #e67e22;
 }
 .meta-item__icon-2.style-2 {
   color: #4cd591;
@@ -6312,7 +6365,7 @@ div.mean-container a.meanmenu-reveal {
   position: absolute;
   content: "";
   height: 1px;
-  width: 60px;
+  width:125px;
   background-color: var(--clr-common-white);
   bottom: -5px;
   left: 0;
@@ -6860,7 +6913,7 @@ div.mean-container a.meanmenu-reveal {
 }
 .service2__img.bg-1 {
   background: rgba(241, 155, 158, 0.1254901961);
-  color: #ff4917;
+  color: #e67e22;
 }
 .service2__img.bg-2 {
   background: rgba(102, 198, 144, 0.2);
@@ -7957,7 +8010,7 @@ div.mean-container a.meanmenu-reveal {
   border-radius: 50%;
 }
 .df-benifits__icon span.bg-1 {
-  color: #ff4917;
+  color: #e67e22;
   background: rgba(241, 155, 158, 0.1254901961);
 }
 .df-benifits__icon span.bg-2 {
@@ -8390,7 +8443,7 @@ div.mean-container a.meanmenu-reveal {
   margin-bottom: 15px;
 }
 .df-portfolio3__item-info .tag.bg-1 {
-  background: #ff4917;
+  background: #e67e22;
 }
 .df-portfolio3__item-info .tag.bg-2 {
   background: #4cd591;
@@ -8986,7 +9039,7 @@ div.mean-container a.meanmenu-reveal {
   height: 194px;
   right: -97px;
   bottom: 30px;
-  background: #ff4917;
+  background: #e67e22;
   filter: blur(200px);
 }
 
@@ -11301,7 +11354,7 @@ div.mean-container a.meanmenu-reveal {
   background: rgba(241, 155, 158, 0.1254901961);
 }
 .counter__number-box.bg-1 .counter__number {
-  color: #ff4917;
+  color: #e67e22;
 }
 .counter__number-box.bg-2 {
   background: rgba(12, 196, 92, 0.062745098);
@@ -11325,7 +11378,7 @@ div.mean-container a.meanmenu-reveal {
   background: transparent;
 }
 .counter__number-box.style-2.bg-1 .counter__number {
-  color: #ff4917;
+  color: #e67e22;
 }
 .counter__number-box.style-2.bg-2 {
   background: transparent;
@@ -11348,7 +11401,7 @@ div.mean-container a.meanmenu-reveal {
 .counter__number {
   font-size: 48px;
   font-weight: 700;
-  color: #ff4917;
+  color: #e67e22;
   display: flex;
   align-items: center;
 }
@@ -14434,7 +14487,7 @@ input[type=range]::-moz-range-thumb {
 ----------------------------------------*/
 .df-footer__blur {
   right: -180px;
-  background: #ff4917;
+  background: #e67e22;
   filter: blur(200px);
   bottom: 0;
   opacity: 0.5;
