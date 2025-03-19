@@ -2950,7 +2950,7 @@ video {
   transition: all 0.3s ease-out 0s;
 }
 .slider__nav-btn:focus {
-  color: var(--clr-common-white);
+  /* color: var(--clr-common-white); */
 }
 .slider__nav-btn.swiper-button-disabled {
   background: #f8f8f8;
@@ -2963,7 +2963,7 @@ video {
 }
 .slider__nav-btn:hover {
   color: var(--clr-common-white);
-  background: var(--clr-theme-3);
+  background: var(--clr-theme-1);
 }
 .slider__nav-btn i {
   font-weight: 400;
@@ -3465,7 +3465,7 @@ video {
 }
 .df__pagination .swiper-pagination-bullet-active {
   width: 23px;
-  background: var(--clr-theme-3);
+  background: var(--clr-theme-1);
 }
 
 .circle-dot-pagination {
@@ -7274,7 +7274,7 @@ div.mean-container a.meanmenu-reveal {
 .df-about__feature-list li i {
   width: 20px;
   height: 20px;
-  background: var(--clr-theme-3);
+  background: var(--clr-theme-1);
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -7506,7 +7506,7 @@ div.mean-container a.meanmenu-reveal {
   }
 }
 .df-about3__counter-number {
-  color: var(--clr-theme-3);
+  color: var(--clr-theme-1);
 }
 .df-about3__counter-number {
   font-size: 54px;
@@ -11600,7 +11600,7 @@ div.mean-container a.meanmenu-reveal {
   overflow: visible;
 }
 .df__progress-bar .progress .progress-bar {
-  background-color: var(--clr-theme-3);
+  background-color: var(--clr-theme-1);
   border-radius: 10px;
   position: relative;
   overflow: visible !important;
@@ -11611,7 +11611,7 @@ div.mean-container a.meanmenu-reveal {
   width: 24px;
   height: 24px;
   right: 0;
-  background: var(--clr-theme-3);
+  background: var(--clr-theme-1);
   border: 2px solid var(--clr-common-white);
   border-radius: 50%;
 }
