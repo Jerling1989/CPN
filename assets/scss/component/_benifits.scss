@@ -1,8 +1,8 @@
 @use "../abstract" as *;
 
-// benifits style
+// benefits style
 
-.df-benifits {
+.df-benefits {
   &__info-box {
     padding: 40px 30px;
     position: relative;
@@ -89,7 +89,7 @@
   }
 }
 
-.df-benifits2 {
+.df-benefits2 {
   &__wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -162,7 +162,7 @@
 
 ///////////
 
-.df-benifits {
+.df-benefits {
   &__icon {
     width: 80px;
     height: 80px;

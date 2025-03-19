@@ -61,7 +61,7 @@
   @color declaration
   */
   --clr-common-white: #ffffff;
-  --clr-common-black: #09162B;
+  --clr-common-black: #222222;
   --clr-common-dark: #222222;
   --clr-common-border: #E8E8E8;
   --clr-common-placeholder: #787878;
@@ -7960,7 +7960,7 @@ div.mean-container a.meanmenu-reveal {
   color: var(--clr-common-black);
 }
 
-.df-benifits__info-box {
+.df-benefits__info-box {
   padding: 40px 30px;
   position: relative;
   background: var(--clr-common-white);
@@ -7971,14 +7971,14 @@ div.mean-container a.meanmenu-reveal {
   text-align: center;
 }
 @media (max-width:450px) {
-  .df-benifits__info-box {
+  .df-benefits__info-box {
     padding: 20px 20px;
   }
 }
-.df-benifits__info-box:hover {
+.df-benefits__info-box:hover {
   transform: translateY(-5px);
 }
-.df-benifits__info-box-number {
+.df-benefits__info-box-number {
   font-size: 90px;
   font-weight: 800;
   -webkit-text-fill-color: transparent;
@@ -7991,19 +7991,19 @@ div.mean-container a.meanmenu-reveal {
   line-height: 1;
   opacity: 0.5;
 }
-.df-benifits__info-box-number.bg-1 {
+.df-benefits__info-box-number.bg-1 {
   -webkit-text-stroke-color: #fcebec;
 }
-.df-benifits__info-box-number.bg-2 {
+.df-benefits__info-box-number.bg-2 {
   -webkit-text-stroke-color: #e0f4e9;
 }
-.df-benifits__info-box-number.bg-3 {
+.df-benefits__info-box-number.bg-3 {
   -webkit-text-stroke-color: #e7ecfe;
 }
-.df-benifits__icon {
+.df-benefits__icon {
   margin-bottom: 25px;
 }
-.df-benifits__icon span {
+.df-benefits__icon span {
   width: 100px;
   height: 100px;
   background: var(--clr-theme-3);
@@ -8014,87 +8014,87 @@ div.mean-container a.meanmenu-reveal {
   color: var(--clr-common-black);
   border-radius: 50%;
 }
-.df-benifits__icon span.bg-1 {
+.df-benefits__icon span.bg-1 {
   color: #e67e22;
   background: rgba(241, 155, 158, 0.1254901961);
 }
-.df-benifits__icon span.bg-2 {
+.df-benefits__icon span.bg-2 {
   color: #4cd591;
   background: rgba(102, 198, 144, 0.1254901961);
 }
-.df-benifits__icon span.bg-3 {
+.df-benefits__icon span.bg-3 {
   color: #557aff;
   background: rgba(137, 162, 252, 0.1254901961);
 }
-.df-benifits__title {
+.df-benefits__title {
   margin-bottom: 15px;
   font-size: 22px;
 }
 @media (max-width: 575px) {
-  .df-benifits__title {
+  .df-benefits__title {
     font-size: 20px;
   }
 }
 
-.df-benifits2__wrapper {
+.df-benefits2__wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border: 1px solid var(--clr-common-border);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .df-benifits2__wrapper {
+  .df-benefits2__wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .df-benifits2__wrapper {
+  .df-benefits2__wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-.df-benifits2__item {
+.df-benefits2__item {
   display: flex;
   gap: 15px;
   padding: 55px 35px;
 }
-.df-benifits2__item:not(:last-child) {
+.df-benefits2__item:not(:last-child) {
   border-right: 1px solid var(--clr-common-border);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1440px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .df-benifits2__item:not(:last-child) {
+  .df-benefits2__item:not(:last-child) {
     border-bottom: 1px solid var(--clr-common-border);
   }
 }
 @media (max-width:450px) {
-  .df-benifits2__item {
+  .df-benefits2__item {
     flex-wrap: wrap;
     padding: 40px 35px;
     row-gap: 25px;
   }
 }
-.df-benifits2__icon {
+.df-benefits2__icon {
   width: 84px;
   max-width: 84px;
 }
-.df-benifits2__icon img {
+.df-benefits2__icon img {
   width: 100%;
 }
-.df-benifits2__icon i {
+.df-benefits2__icon i {
   font-size: 46px;
 }
-.df-benifits2__icon.bg-1 i {
+.df-benefits2__icon.bg-1 i {
   color: var(--clr-theme-2);
 }
-.df-benifits2__icon.bg-2 i {
+.df-benefits2__icon.bg-2 i {
   color: #4CD591;
 }
-.df-benifits2__icon.bg-3 i {
+.df-benefits2__icon.bg-3 i {
   color: #557AFF;
 }
-.df-benifits2__title {
+.df-benefits2__title {
   margin-bottom: 5px;
 }
 
-.df-benifits__icon {
+.df-benefits__icon {
   width: 80px;
   height: 80px;
   line-height: 85px;
@@ -8105,7 +8105,7 @@ div.mean-container a.meanmenu-reveal {
   background: rgba(85, 174, 251, 0.1);
   position: relative;
 }
-.df-benifits__icon svg {
+.df-benefits__icon svg {
   width: 40px;
   height: 40px;
   position: absolute;
@@ -8113,10 +8113,10 @@ div.mean-container a.meanmenu-reveal {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.df-benifits__icon svg svg * {
+.df-benefits__icon svg svg * {
   fill: var(--clr-theme-3);
 }
-.df-benifits__single-box {
+.df-benefits__single-box {
   display: grid;
   grid-template-columns: 80px auto;
   justify-content: space-between;
@@ -8127,20 +8127,20 @@ div.mean-container a.meanmenu-reveal {
   max-width: 350px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px), (max-width:450px) {
-  .df-benifits__single-box {
+  .df-benefits__single-box {
     justify-content: start;
     max-width: 100%;
   }
 }
-.df-benifits__sub-title {
+.df-benefits__sub-title {
   font-size: 18px;
   line-height: 25px;
 }
-.df-benifits__thumb img {
+.df-benefits__thumb img {
   border-radius: 10px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .df-benifits__thumb {
+  .df-benefits__thumb {
     text-align: center;
   }
 }
