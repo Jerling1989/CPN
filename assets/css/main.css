@@ -68,11 +68,11 @@
   --clr-common-body-text: #787878;
   --clr-common-body-bg: #f7fbff;
   --clr-theme-1: #003773;
-  --clr-theme-2: #e67e22;
+  --clr-theme-2: #ffb142;
   --clr-theme-3: #1765E5;
   --clr-theme-4: #F3F6F9;
   --clr-theme-5: #083260;
-  --clr-theme-6: #d35400;
+  --clr-theme-6: #cc8e35;
 }
 
 * {
@@ -887,7 +887,7 @@ p.is-white {
   height: 278px;
   border-radius: 274px;
   opacity: 0.5;
-  background: #e67e22;
+  background: #ffb142;
   filter: blur(200px);
   top: 550px;
   right: -200px;
@@ -899,7 +899,7 @@ p.is-white {
   width: 278px;
   height: 278px;
   border-radius: 278px;
-  background: #e67e22;
+  background: #ffb142;
   filter: blur(200px);
   top: 150px;
   right: -200px;
@@ -1060,7 +1060,7 @@ p.is-white {
   height: 274px;
   right: -200px;
   bottom: 0;
-  background: #e67e22;
+  background: #ffb142;
   filter: blur(200px);
   bottom: 39%;
   opacity: 0.5;
@@ -5504,7 +5504,7 @@ div.mean-container a.meanmenu-reveal {
   font-size: 28px;
   padding: 5px 5px;
   border-radius: 6px;
-  color: #e67e22;
+  color: #ffb142;
 }
 .meta-item__icon-2.style-2 {
   color: #4cd591;
@@ -6921,7 +6921,7 @@ div.mean-container a.meanmenu-reveal {
 }
 .service2__img.bg-1 {
   background: rgba(241, 155, 158, 0.1254901961);
-  color: #e67e22;
+  color: #ffb142;
 }
 .service2__img.bg-2 {
   background: rgba(102, 198, 144, 0.2);
@@ -8018,7 +8018,7 @@ div.mean-container a.meanmenu-reveal {
   border-radius: 50%;
 }
 .df-benefits__icon span.bg-1 {
-  color: #e67e22;
+  color: #ffb142;
   background: rgba(241, 155, 158, 0.1254901961);
 }
 .df-benefits__icon span.bg-2 {
@@ -8451,7 +8451,7 @@ div.mean-container a.meanmenu-reveal {
   margin-bottom: 15px;
 }
 .df-portfolio3__item-info .tag.bg-1 {
-  background: #e67e22;
+  background: #ffb142;
 }
 .df-portfolio3__item-info .tag.bg-2 {
   background: #4cd591;
@@ -9047,7 +9047,7 @@ div.mean-container a.meanmenu-reveal {
   height: 194px;
   right: -97px;
   bottom: 30px;
-  background: #e67e22;
+  background: #ffb142;
   filter: blur(200px);
 }
 
@@ -11362,7 +11362,7 @@ div.mean-container a.meanmenu-reveal {
   background: rgba(241, 155, 158, 0.1254901961);
 }
 .counter__number-box.bg-1 .counter__number {
-  color: #e67e22;
+  color: #ffb142;
 }
 .counter__number-box.bg-2 {
   background: rgba(12, 196, 92, 0.062745098);
@@ -11386,7 +11386,7 @@ div.mean-container a.meanmenu-reveal {
   background: transparent;
 }
 .counter__number-box.style-2.bg-1 .counter__number {
-  color: #e67e22;
+  color: #ffb142;
 }
 .counter__number-box.style-2.bg-2 {
   background: transparent;
@@ -11409,7 +11409,7 @@ div.mean-container a.meanmenu-reveal {
 .counter__number {
   font-size: 48px;
   font-weight: 700;
-  color: #e67e22;
+  color: #ffb142;
   display: flex;
   align-items: center;
 }
@@ -14495,7 +14495,7 @@ input[type=range]::-moz-range-thumb {
 ----------------------------------------*/
 .df-footer__blur {
   right: -180px;
-  background: #e67e22;
+  background: #ffb142;
   filter: blur(200px);
   bottom: 0;
   opacity: 0.5;
