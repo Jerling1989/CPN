@@ -69,10 +69,11 @@
   --clr-common-body-bg: #f7fbff;
   --clr-theme-1: #003773;
   --clr-theme-2: #ffb142;
-  --clr-theme-3: #1765E5;
+  --clr-theme-3: #003773;
   --clr-theme-4: #F3F6F9;
-  --clr-theme-5: #083260;
-  --clr-theme-6: #cc8e35;
+  --clr-theme-5: #121f40;
+  --clr-theme-6: #e69522;
+  --clr-theme-7: #1765E5;
 }
 
 * {
@@ -2870,7 +2871,7 @@ video {
   width: 100%;
   height: 100%;
   border-color: transparent;
-  background: var(--clr-theme-3);
+  background: var(--clr-theme-7);
   z-index: 1;
   padding: 10%;
   background-clip: content-box;
@@ -6829,7 +6830,7 @@ div.mean-container a.meanmenu-reveal {
 }
 .section__subtitle.bg-lighter {
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0.075em;
   padding: 0 12px;
   border-radius: 30px;
   background: rgba(85, 174, 251, 0.1);
@@ -6837,7 +6838,7 @@ div.mean-container a.meanmenu-reveal {
 }
 .section__subtitle.bg-filled {
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0.075em;
   padding: 0 12px;
   border-radius: 30px;
   color: var(--clr-common-white);
@@ -7077,17 +7078,17 @@ div.mean-container a.meanmenu-reveal {
 .df-service4__feature-list li p {
   font-weight: 500;
   color: var(--clr-common-black);
-  line-height: 1;
+  line-height: 1.4;
 }
 @media (max-width: 575px) {
   .df-service4__feature-list li p {
-    line-height: 1.5;
+    line-height: 1.4;
   }
 }
 .df-service4__feature-list li i {
   width: 20px;
   height: 20px;
-  background: var(--clr-theme-3);
+  background: var(--clr-theme-1);
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -8100,7 +8101,7 @@ div.mean-container a.meanmenu-reveal {
 .df-benefits__icon {
   width: 80px;
   height: 80px;
-  line-height: 85px;
+  line-height: 80px;
   font-size: 40px;
   color: var(--clr-theme-3);
   text-align: center;
