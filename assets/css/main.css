@@ -9711,7 +9711,7 @@ div.mean-container a.meanmenu-reveal {
   content: "";
   width: 100%;
   height: 100%;
-  background: var(--clr-theme-1);
+  background: var(--clr-theme-2);
   top: 0;
   left: 0;
   z-index: -1;
@@ -9794,11 +9794,8 @@ div.mean-container a.meanmenu-reveal {
 }
 .df-team-details__list ul li {
   list-style: none;
-  display: grid;
-  grid-template-columns: 110px auto;
+  display: block;
   text-align: start;
-  gap: 20px 75px;
-  margin-bottom: 10px;
 }
 @media (max-width: 575px) {
   .df-team-details__list ul li {
