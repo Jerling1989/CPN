@@ -4848,10 +4848,10 @@ body {
   background-color: rgb(243, 246, 249);
 }
 .main-menu ul li .sub-menu li:hover > a {
-  color: var(--clr-theme-3);
+  color: var(--clr-theme-2);
 }
 .main-menu ul li:hover > a {
-  color: var(--clr-theme-3);
+  color: var(--clr-theme-2);
   opacity: 1;
 }
 .main-menu ul li:hover > .sub-menu {
